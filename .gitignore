@@ -1,0 +1,12 @@
+# Ignore database files
+*.db
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore environment variables (if you ever use a .env file for Twilio)
+.env

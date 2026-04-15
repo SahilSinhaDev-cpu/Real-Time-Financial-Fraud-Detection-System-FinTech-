@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FinTech Secure Gateway</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #0b0c10; margin: 0;}
+        .login-box { background: #1f2833; padding: 40px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); text-align: center; width: 300px; }
+        h2 { color: #66fcf1; margin-bottom: 20px;}
+        input { display: block; width: 100%; margin: 15px 0; padding: 12px; border: none; border-radius: 4px; box-sizing: border-box; background: #c5c6c7; }
+        button { background: #45a29e; color: #0b0c10; font-weight: bold; border: none; padding: 12px; border-radius: 4px; cursor: pointer; width: 100%; transition: 0.3s;}
+        button:hover { background: #66fcf1; }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>System Access</h2>
+        <input type="text" placeholder="Admin ID" required>
+        <input type="password" placeholder="Password" required>
+        <button onclick="window.location.href='/dashboard'">Enter Dashboard</button>
+    </div>
+</body>
+</html>
