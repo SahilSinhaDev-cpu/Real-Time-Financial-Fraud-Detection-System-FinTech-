@@ -11,8 +11,7 @@
 This project is a full-stack **Fraud Detection Gateway** designed to protect financial institutions from unauthorized transactions. It uses a Machine Learning model (trained on the Kaggle PaySim dataset) to perform real-time inference on incoming transaction streams.
 
 The system isn't just a script—it's an **Event-Driven Ecosystem** that logs data, updates a live monitoring dashboard via WebSockets, and triggers automated SMS security alerts when high-risk fraud is detected.
-<img width="1359" height="972" alt="Screenshot 2026-04-15 at 2 25 00 PM" src="https://github.com/user-attachments/assets/b43796ba-519d-4798-a146-7f55c39e04d3" />
-<img width="1234" height="767" alt="Screenshot 2026-04-15 at 2 29 39 PM" src="https://github.com/user-attachments/assets/17eeee62-2945-4801-9943-6ce34f017c8e" />
+  <img width="1433" height="813" alt="Screenshot 2026-07-13 at 10 31 22 PM" src="https://github.com/user-attachments/assets/9dbf4760-9461-45fd-acae-65cc650835fa" />
 
 ---
 
