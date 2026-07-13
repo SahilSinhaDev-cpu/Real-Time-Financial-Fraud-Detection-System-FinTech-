@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-deep-charcoal: #0B0C10;
+  --color-obsidian: #1F2833;
+  --color-cyan-secondary: #45A29E;
+  --color-electric-cyan: #66FCF1;
+  --color-light-gray: #C5C6C7;
+  
+  --font-mono: "Fira Code", monospace;
+  
+  --shadow-cyan-glow: 0 0 15px rgba(102, 252, 241, 0.35);
+  --shadow-red-glow: 0 0 15px rgba(239, 68, 68, 0.35);
+  --shadow-cyan-border-glow: 0 0 8px rgba(69, 162, 158, 0.4);
+}
+
+body {
+  background-color: #0B0C10 !important; /* Forces dark background to immediately tell if loading */
+  color: #C5C6C7;
+  font-family: var(--font-mono);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Modern styling tweaks for scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(11, 12, 16, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(69, 162, 158, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(102, 252, 241, 0.6);
+}

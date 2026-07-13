@@ -114,3 +114,7 @@ def process_transaction():
             print("Twilio alert bypassed (configure credentials to activate).")
             
     return jsonify({"status": status})
+
+# --- 5. START THE SERVER ---
+if __name__ == '__main__':
+    socketio.run(app, debug=True, port=5001, allow_unsafe_werkzeug=True)
